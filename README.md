@@ -15,9 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<!-- If you're using "master" as default branch -->
-![Metrics](https://github.com/my-github-user/irg1008/blob/master/github-metrics.svg)
-<!-- If you're using "main" as default branch -->
-![Metrics](https://github.com/my-github-user/irg1008/blob/main/github-metrics.svg)
-<!-- If you're using the "columns" display mode -->
-<img src="https://github.com/my-github-user/irg1008r/blob/master/github-metrics.svg" alt="Metrics" width="100%">
+![Metrics](https://github.com/irg1008/irg1008/blob/main/github-metrics.svg)
