@@ -12,18 +12,16 @@ jobs:
       # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
-          template: termimal
     
-          plugin_isocalendar: yes
+          plugin_isocalendar: no
           plugin_isocalendar_duration: full-year # Display full year instead of half year
           
-          plugin_topics: yes
+          plugin_topics: no
           plugin_topics_sort: stars    # Sort by most starred topics
           plugin_topics_mode: icons    # Display icons instead of labels
           plugin_topics_limit: 0       # Disable limitations
           
           plugin_languages: yes
-          plugin_languages_ignored: 0    
           plugin_languages_colors : "rainbow"                           # List of languages to ignore
           plugin_languages_skipped: my-test-repo                        # List of repositories to skip
           plugin_languages_limit: 20                                     # Display up to 8 languages
