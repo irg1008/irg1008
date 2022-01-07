@@ -1,1 +1,1 @@
-![Metrics](https://github.com/irg1008/irg1008/blob/main/github-metrics.svg)
+You did not provide a valid "markdown" query parameter, which is required to use this template.
