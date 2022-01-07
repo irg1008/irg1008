@@ -12,6 +12,11 @@ jobs:
       # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
+          template: markdown
+          filename: README.md         # Output file
+          markdown: TEMPLATE.md       # Template file
+          markdown_cache: .cache      # Cache folder
+    
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year # Display full year instead of half year
           
