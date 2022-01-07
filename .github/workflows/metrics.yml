@@ -25,7 +25,7 @@ jobs:
           plugin_languages_colors : "rainbow"                           # List of languages to ignore
           plugin_languages_skipped: my-test-repo                        # List of repositories to skip
           plugin_languages_limit: 20                                     # Display up to 8 languages
-          plugin_languages_sections: most-used                           # Display most used and recently used
+          plugin_languages_sections: most-used, recently-used                           # Display most used and recently used
           plugin_languages_details: percentage                          # Additionally display total bytes size and percentage
           plugin_languages_threshold: 2%                                # Hides all languages less than 2%
           
