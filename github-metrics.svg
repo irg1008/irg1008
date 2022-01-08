@@ -219,10 +219,10 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="354.5453863043519" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="354.5453863043519" y="0" width="38.31966520915045" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="392.8650515135024" y="0" width="35.10837540112973" height="8" fill="#ffff00"/>
-                    <rect mask="url(#languages-bar)" x="427.9734269146321" y="0" width="32.02657308536791" height="8" fill="#008000"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="347.6425385163249" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="347.6425385163249" y="0" width="38.650897777111375" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="386.2934362934363" y="0" width="38.642276118004276" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="424.93571241144053" y="0" width="35.06428758855944" height="8" fill="#008000"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -234,7 +234,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>77.08%</div>
+                                <div>75.57%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -242,10 +242,10 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                     <path fill="#ffff00" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                JavaScript
+                                CSS
                             </div>
                             <small>
-                                <div>7.63%</div>
+                                <div>8.4%</div>
                             </small>
                         </div>
                     </section>
@@ -255,10 +255,10 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                     <path fill="#ffa500" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                CSS
+                                TSX
                             </div>
                             <small>
-                                <div>8.33%</div>
+                                <div>8.4%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -266,10 +266,10 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                     <path fill="#008000" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                TSX
+                                JavaScript
                             </div>
                             <small>
-                                <div>6.96%</div>
+                                <div>7.62%</div>
                             </small>
                         </div>
                     </section>
@@ -277,7 +277,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 8 Jan 2022, 17:17:49  with lowlighter/metrics@3.17.0</span>
+                <span>Last updated 8 Jan 2022, 18:10:17  with lowlighter/metrics@3.17.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
