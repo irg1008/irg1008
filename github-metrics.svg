@@ -226,9 +226,9 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="203.27289935228183" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="203.27289935228183" y="0" width="185.20540652450384" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="388.47830587678567" y="0" width="71.52169412321433" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="203.28492413262742" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="203.28492413262742" y="0" width="185.18915081782959" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="388.474074950457" y="0" width="71.52592504954302" height="8" fill="#ffff00"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -272,7 +272,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 22 Jan 2022, 22:08:43  with lowlighter/metrics@3.18.0</span>
+                <span>Last updated 22 Jan 2022, 23:08:32  with lowlighter/metrics@3.18.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
