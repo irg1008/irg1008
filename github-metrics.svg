@@ -220,15 +220,15 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 116 edited files from 19 commits over last 9 days</small>
+                <small>estimation from 116 edited files from 19 commits over last 10 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="203.23082382163346" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="203.23082382163346" y="0" width="185.27588858004614" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="388.5067124016796" y="0" width="71.49328759832042" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="203.2188054405677" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="203.2188054405677" y="0" width="185.29213483146066" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="388.5109402720284" y="0" width="71.48905972797162" height="8" fill="#ffff00"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -272,7 +272,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 24 Jan 2022, 06:11:46  with lowlighter/metrics@3.18.0</span>
+                <span>Last updated 24 Jan 2022, 07:14:14  with lowlighter/metrics@3.18.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
