@@ -220,15 +220,15 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 131 edited files from 29 commits over last 12 days</small>
+                <small>estimation from 130 edited files from 29 commits over last 12 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="208.7565187159578" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="208.7565187159578" y="0" width="196.02642252868233" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="404.78294124464014" y="0" width="55.21705875535983" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="225.2320694917244" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="225.2320694917244" y="0" width="178.83789177133465" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="404.06996126305904" y="0" width="55.93003873694095" height="8" fill="#ffff00"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -240,7 +240,7 @@
                                 TSX
                             </div>
                             <small>
-                                <div>45.38%</div>
+                                <div>48.96%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -251,7 +251,7 @@
                                 CSS
                             </div>
                             <small>
-                                <div>12%</div>
+                                <div>12.16%</div>
                             </small>
                         </div>
                     </section>
@@ -264,7 +264,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>42.61%</div>
+                                <div>38.88%</div>
                             </small>
                         </div>
                     </section>
@@ -272,7 +272,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 26 Jan 2022, 22:08:33  with lowlighter/metrics@3.18.0</span>
+                <span>Last updated 26 Jan 2022, 23:09:14  with lowlighter/metrics@3.18.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
