@@ -226,9 +226,9 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="216.74452238050475" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="216.74452238050475" y="0" width="185.84279412828116" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="402.5873165087859" y="0" width="57.41268349121412" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="215.12153110047848" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="215.12153110047848" y="0" width="187.8956937799043" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="403.0172248803828" y="0" width="56.98277511961722" height="8" fill="#ffff00"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -240,7 +240,7 @@
                                 TSX
                             </div>
                             <small>
-                                <div>47.12%</div>
+                                <div>46.77%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -251,7 +251,7 @@
                                 CSS
                             </div>
                             <small>
-                                <div>12.48%</div>
+                                <div>12.39%</div>
                             </small>
                         </div>
                     </section>
@@ -264,7 +264,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>40.4%</div>
+                                <div>40.85%</div>
                             </small>
                         </div>
                     </section>
@@ -272,7 +272,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 29 Jan 2022, 15:08:32  with lowlighter/metrics@3.18.0</span>
+                <span>Last updated 29 Jan 2022, 16:11:30  with lowlighter/metrics@3.18.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
