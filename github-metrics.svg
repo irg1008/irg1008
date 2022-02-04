@@ -226,10 +226,10 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="241.4919891077196" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="241.4919891077196" y="0" width="194.59185612057502" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="436.0838452282946" y="0" width="13.54569058324362" height="8" fill="#ffff00"/>
-                    <rect mask="url(#languages-bar)" x="449.62953581153823" y="0" width="10.370464188461781" height="8" fill="#008000"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="241.52257901070365" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="241.52257901070365" y="0" width="194.55823674710243" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="436.0808157578061" y="0" width="13.547406422192665" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="449.6282221799987" y="0" width="10.371777820001267" height="8" fill="#008000"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -252,7 +252,7 @@
                                 CSS
                             </div>
                             <small>
-                                <div>2.94%</div>
+                                <div>2.95%</div>
                             </small>
                         </div>
                     </section>
@@ -284,7 +284,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 4 Feb 2022, 14:07:26  with lowlighter/metrics@3.19.0</span>
+                <span>Last updated 4 Feb 2022, 15:08:13  with lowlighter/metrics@3.19.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
