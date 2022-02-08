@@ -226,8 +226,8 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="258.6270783847981" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="258.6270783847981" y="0" width="201.3729216152019" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="257.8309258820744" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="257.8309258820744" y="0" width="202.16907411792565" height="8" fill="#ffa500"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -239,7 +239,7 @@
                                 TSX
                             </div>
                             <small>
-                                <div>56.22%</div>
+                                <div>56.05%</div>
                             </small>
                         </div>
                     </section>
@@ -252,7 +252,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>43.78%</div>
+                                <div>43.95%</div>
                             </small>
                         </div>
                     </section>
@@ -260,7 +260,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 8 Feb 2022, 00:32:48  with lowlighter/metrics@3.19.0</span>
+                <span>Last updated 8 Feb 2022, 01:54:05  with lowlighter/metrics@3.19.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
