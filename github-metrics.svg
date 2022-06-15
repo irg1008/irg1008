@@ -214,15 +214,15 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 38.4kb of code in 69 edited files across 50 commits over last 14 days</small>
+                <small>estimation from 37.7kb of code in 69 edited files across 50 commits over last 14 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="333.864988294892" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="333.864988294892" y="0" width="108.30487009248954" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="442.1698583873815" y="0" width="17.83014161261849" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="340.9563229265216" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="340.9563229265216" y="0" width="100.7292652160202" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="441.68558814254175" y="0" width="18.314411857458214" height="8" fill="#ffff00"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -234,7 +234,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>72.58%</div>
+                                <div>74.12%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -245,7 +245,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>3.88%</div>
+                                <div>3.98%</div>
                             </small>
                         </div>
                     </section>
@@ -258,7 +258,7 @@
                                 Svelte
                             </div>
                             <small>
-                                <div>23.54%</div>
+                                <div>21.9%</div>
                             </small>
                         </div>
                     </section>
@@ -266,7 +266,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 15 Jun 2022, 13:30:01  with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 15 Jun 2022, 14:09:15  with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
