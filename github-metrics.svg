@@ -220,9 +220,9 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="360.84548746573836" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="360.84548746573836" y="0" width="80.18686353360143" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="441.03235099933977" y="0" width="18.967649000660224" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="360.8236612503002" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="360.8236612503002" y="0" width="80.20451452813576" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="441.02817577843587" y="0" width="18.971824221564077" height="8" fill="#ffff00"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -258,7 +258,7 @@
                                 Svelte
                             </div>
                             <small>
-                                <div>17.43%</div>
+                                <div>17.44%</div>
                             </small>
                         </div>
                     </section>
@@ -266,7 +266,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 27 Jun 2022, 05:23:49  with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 27 Jun 2022, 06:15:27  with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
