@@ -220,11 +220,11 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="202.42770075030958" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="202.42770075030958" y="0" width="119.98445960711943" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="322.41216035742906" y="0" width="84.04050214894495" height="8" fill="#ffff00"/>
-                    <rect mask="url(#languages-bar)" x="406.452662506374" y="0" width="36.0779933467693" height="8" fill="#008000"/>
-                    <rect mask="url(#languages-bar)" x="442.5306558531433" y="0" width="17.469344146856713" height="8" fill="#0000ff"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="202.45228034387296" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="202.45228034387296" y="0" width="119.99902860750888" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="322.4513089513818" y="0" width="84.05070668803731" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="406.5020156394191" y="0" width="36.02651901500801" height="8" fill="#008000"/>
+                    <rect mask="url(#languages-bar)" x="442.5285346544271" y="0" width="17.471465345572877" height="8" fill="#0000ff"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -271,7 +271,7 @@
                                 Jupyter Notebook
                             </div>
                             <small>
-                                <div>26.08%</div>
+                                <div>26.09%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -282,7 +282,7 @@
                                 Svelte
                             </div>
                             <small>
-                                <div>7.84%</div>
+                                <div>7.83%</div>
                             </small>
                         </div>
                     </section>
@@ -290,7 +290,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 3 Jul 2022, 08:12:04  with lowlighter/metrics@3.25.0</span>
+                <span>Last updated 3 Jul 2022, 09:10:33  with lowlighter/metrics@3.25.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
