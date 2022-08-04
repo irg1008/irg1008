@@ -220,10 +220,10 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="218.55450236966826" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="218.55450236966826" y="0" width="200.02369668246448" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="418.57819905213273" y="0" width="24.603926878808394" height="8" fill="#ffff00"/>
-                    <rect mask="url(#languages-bar)" x="443.18212593094114" y="0" width="16.817874069058902" height="8" fill="#008000"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="218.59150160826138" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="218.59150160826138" y="0" width="200.05755882850855" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="418.6490604367699" y="0" width="24.53021838496699" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="443.17927882173694" y="0" width="16.820721178263078" height="8" fill="#008000"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -235,7 +235,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>47.51%</div>
+                                <div>47.52%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -246,7 +246,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>5.35%</div>
+                                <div>5.33%</div>
                             </small>
                         </div>
                     </section>
@@ -259,7 +259,7 @@
                                 Jupyter Notebook
                             </div>
                             <small>
-                                <div>43.48%</div>
+                                <div>43.49%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -278,7 +278,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 4 Aug 2022, 18:13:05  with lowlighter/metrics@3.26.0</span>
+                <span>Last updated 4 Aug 2022, 19:08:48  with lowlighter/metrics@3.26.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
