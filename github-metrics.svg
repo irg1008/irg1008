@@ -220,9 +220,9 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="283.4058415514557" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="283.4058415514557" y="0" width="90.72807058934553" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="374.1339121408012" y="0" width="85.86608785919879" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="306.4640362469322" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="306.4640362469322" y="0" width="85.88635076458372" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="392.3503870115159" y="0" width="67.64961298848405" height="8" fill="#ffff00"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -234,7 +234,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>61.61%</div>
+                                <div>66.62%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -242,10 +242,10 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                     <path fill="#ffff00" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Svelte
+                                TSX
                             </div>
                             <small>
-                                <div>18.67%</div>
+                                <div>14.71%</div>
                             </small>
                         </div>
                     </section>
@@ -255,10 +255,10 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                     <path fill="#ffa500" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                TSX
+                                Svelte
                             </div>
                             <small>
-                                <div>19.72%</div>
+                                <div>18.67%</div>
                             </small>
                         </div>
                     </section>
@@ -266,7 +266,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 13 Aug 2022, 04:17:37  with lowlighter/metrics@3.26.0</span>
+                <span>Last updated 13 Aug 2022, 05:09:37  with lowlighter/metrics@3.26.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
