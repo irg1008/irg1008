@@ -220,10 +220,10 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="280.23283016766" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="280.23283016766" y="0" width="70.76923076923077" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="351.00206093689076" y="0" width="55.44700050130898" height="8" fill="#ffff00"/>
-                    <rect mask="url(#languages-bar)" x="406.44906143819975" y="0" width="53.55093856180026" height="8" fill="#008000"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="280.21221488846186" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="280.21221488846186" y="0" width="70.76725986576434" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="350.9794747542262" y="0" width="55.47107806277327" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="406.45055281699945" y="0" width="53.54944718300053" height="8" fill="#008000"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -246,7 +246,7 @@
                                 Astro
                             </div>
                             <small>
-                                <div>12.05%</div>
+                                <div>12.06%</div>
                             </small>
                         </div>
                     </section>
@@ -278,7 +278,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 13 Aug 2022, 16:12:58  with lowlighter/metrics@3.26.0</span>
+                <span>Last updated 13 Aug 2022, 17:11:27  with lowlighter/metrics@3.26.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
