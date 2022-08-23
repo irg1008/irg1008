@@ -220,10 +220,10 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="242.63503560029463" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="242.63503560029463" y="0" width="145.31702676160077" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="387.9520623618954" y="0" width="45.74729928799411" height="8" fill="#ffff00"/>
-                    <rect mask="url(#languages-bar)" x="433.6993616498895" y="0" width="26.300638350110486" height="8" fill="#008000"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="242.6956188137804" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="242.6956188137804" y="0" width="145.33077572316427" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="388.02639453694474" y="0" width="45.749405355635695" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="433.7757998925804" y="0" width="26.224200107419627" height="8" fill="#008000"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -235,7 +235,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>52.75%</div>
+                                <div>52.76%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -270,7 +270,7 @@
                                 Astro
                             </div>
                             <small>
-                                <div>5.72%</div>
+                                <div>5.7%</div>
                             </small>
                         </div>
                     </section>
@@ -278,7 +278,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 23 Aug 2022, 14:10:22  with lowlighter/metrics@3.27.0</span>
+                <span>Last updated 23 Aug 2022, 15:11:11  with lowlighter/metrics@3.27.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
