@@ -16,7 +16,7 @@ jobs:
           plugin_isocalendar: no
           plugin_isocalendar_duration: full-year # Display full year instead of half year
           
-          plugin_topics: no
+          plugin_topics: yes
           plugin_topics_sort: stars    # Sort by most starred topics
           plugin_topics_mode: icons    # Display icons instead of labels
           plugin_topics_limit: 0       # Disable limitations
@@ -29,8 +29,6 @@ jobs:
           plugin_languages_details: percentage                          # Additionally display total bytes size and percentage
           plugin_languages_threshold: 2%                                # Hides all languages less than 2%
           plugin_languages_ignored: jupyter-notebook
-          
-          
           
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
