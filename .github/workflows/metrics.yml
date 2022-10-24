@@ -46,5 +46,8 @@ jobs:
           
           plugin_notable: yes
           
+          plugin_code: yes
+          plugin_code_load: 400
+          
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
