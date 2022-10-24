@@ -24,10 +24,13 @@ jobs:
           plugin_languages: yes
           plugin_languages_colors : "rainbow"                           # List of languages to ignore
           plugin_languages_skipped: my-test-repo                        # List of repositories to skip
-          plugin_languages_limit: 20                                     # Display up to 8 languages
+          plugin_languages_limit: 8                                     # Display up to 8 languages
           plugin_languages_sections: recently-used                           # Display most used and recently used
           plugin_languages_details: percentage                          # Additionally display total bytes size and percentage
           plugin_languages_threshold: 2%                                # Hides all languages less than 2%
+          plugin_languages_ignored: jupyter-notebook
+          
+          
           
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
