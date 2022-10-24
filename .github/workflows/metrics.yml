@@ -44,5 +44,7 @@ jobs:
           plugin_discussions: yes
           plugin_discussions_categories_limit: 8
           
+          plugin_notable: yes
+          
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
