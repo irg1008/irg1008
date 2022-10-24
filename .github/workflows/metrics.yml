@@ -12,7 +12,9 @@ jobs:
       # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
-          template: terminal
+          base: header, repositories
+          
+          plugin_lines: yes
     
           plugin_isocalendar: no
           plugin_isocalendar_duration: full-year # Display full year instead of half year
