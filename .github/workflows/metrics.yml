@@ -35,5 +35,14 @@ jobs:
           plugin_habits_charts: no
           config_timezone: Europe/Paris
           
+          plugin_stars: yes
+          plugin_stars_limit: 3
+          
+          plugin_followup: yes
+          plugin_followup_sections: user
+          
+          plugin_discussions: yes
+          plugin_discussions_categories_limit: 8
+          
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
