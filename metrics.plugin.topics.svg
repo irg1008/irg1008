@@ -269,7 +269,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>fastify/fastify-cli</span>
-                                        <span>starred 1 hour ago</span>
+                                        <span>starred 2 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Run a Fastify application with one command!</div>
@@ -322,7 +322,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>fastify/fastify-autoload</span>
-                                        <span>starred 2 hours ago</span>
+                                        <span>starred 3 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Require all plugins in a directory</div>
@@ -375,7 +375,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>casbin/node-casbin</span>
-                                        <span>starred 6 hours ago</span>
+                                        <span>starred 7 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">An authorization library that supports access control models like ACL, RBAC, ABAC in Node.js and Browser</div>
