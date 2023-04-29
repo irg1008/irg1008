@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1002" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1015" class="">
     <defs>
         <style/>
     </defs>
@@ -466,10 +466,10 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">d6902e93</span>
-                            <span class="code">apps/storybook-react/storybook-static/assets/preview-1e5c59db.js</span>
+                            <span class="code">apps/storybook-react/storybook-static/assets/DocsRenderer-7FRJXR4N-4a5967c6.js.map</span>
                             <span class="code">
                                 <span class="snippet additions">++0</span>
-                                <span class="snippet deletions">--2</span>
+                                <span class="snippet deletions">--1</span>
                             </span>
                         </div>
                     </section>
@@ -477,7 +477,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,2 +0,0 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">const e={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}}}};export{e as default};<br /></span><span class="token prefix deleted">-</span><span class="token line">//# sourceMappingURL=preview-1e5c59db.js.map</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1 +0,0 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">{"version":3,"mappings":"yZAAoL,IAACA,EAAkB,CAAC,KAAKC,EAAgB,EAAEC,EAAU,GAAGC,CAAU,EAAEC,EAAc,cAAcC,EAAS,UAAC,aAAa,CAAC,MAAM,GAAG,SAAS,EAAE,KAAK,MAAM,CAAC,SAAS,EAAE,CAAC,CAAC,OAAO,0BAA0B,CAAC,MAAM,CAAC,SAAS,EAAE,CAAC,CAAC,kBAAkBC,EAAI,CAAC,GAAG,CAAC,cAAAC,CAAa,EAAE,KAAK,MAAMA,EAAcD,CAAG,CAAC,CAAC,QAAQ,CAAC,GAAG,CAAC,SAAAE,CAAQ,EAAE,KAAK,MAAM,CAAC,SAAAC,CAAQ,EAAE,KAAK,MAAM,OAAOD,EAAS,KAAKC,CAAQ,CAAC,EAAEC,EAAa,KAAK,CAAC,aAAa,CAAC,KAAK,OAAO,MAAMC,EAAQC,EAAcC,IAAU,CAAC,IAAIC,EAAW,CAAC,GAAGd,EAAkB,GAAGY,GAAA,YAAAA,EAAe,UAAU,EAAE,OAAO,IAAI,QAAQ,CAACG,EAAQC,IAAS,CAAAC,EAAA,IAAC,OAAO,qBAAe,EAAC,sHAAC,KAAK,CAAC,CAAC,YAAAC,CAAW,IAAIC,EAAcC,EAAM,cAAchB,EAAc,CAAC,cAAcY,EAAO,IAAI,KAAK,OAAQ,GAAEI,EAAM,cAAcF,EAAY,CAAC,WAAAJ,CAAU,EAAEM,EAAM,cAAcC,EAAK,CAAC,QAAAV,EAAQ,cAAAC,CAAa,CAAC,CAAC,CAAC,EAAEC,CAAO,CAAC,EAAE,KAAKE,CAAO,CAAC,CAAC,CAAC,EAAE,KAAK,QAAQF,GAAS,CAACS,EAAeT,CAAO,CAAC,CAAC,CAAC","names":["defaultComponents","CodeOrSourceMdx","AnchorMdx","HeadersMdx","ErrorBoundary","Component","err","showException","hasError","children","DocsRenderer","context","docsParameter","element","components","resolve","reject","__vitePreload","MDXProvider","renderElement","React","Docs","unmountElement"],"sources":["../../../../node_modules/.pnpm/@storybook+addon-docs@7.0.7_react-dom@18.2.0_react@18.2.0/node_modules/@storybook/addon-docs/dist/chunk-PCJTTTQV.mjs"],"sourcesContent":["import React,{Component}from\"react\";import{renderElement,unmountElement}from\"@storybook/react-dom-shim\";import{Docs,CodeOrSourceMdx,AnchorMdx,HeadersMdx}from\"@storybook/blocks\";var defaultComponents={code:CodeOrSourceMdx,a:AnchorMdx,...HeadersMdx},ErrorBoundary=class extends Component{constructor(){super(...arguments);this.state={hasError:!1}}static getDerivedStateFromError(){return{hasError:!0}}componentDidCatch(err){let{showException}=this.props;showException(err)}render(){let{hasError}=this.state,{children}=this.props;return hasError?null:children}},DocsRenderer=class{constructor(){this.render=async(context,docsParameter,element)=&gt;{let components={...defaultComponents,...docsParameter?.components};return new Promise((resolve,reject)=&gt;{import(\"@mdx-js/react\").then(({MDXProvider})=&gt;renderElement(React.createElement(ErrorBoundary,{showException:reject,key:Math.random()},React.createElement(MDXProvider,{components},React.createElement(Docs,{context,docsParameter}))),element)).then(resolve)})},this.unmount=element=&gt;{unmountElement(element)}}};export{defaultComponents,DocsRenderer};\n"],"file":"assets/DocsRenderer-7FRJXR4N-4a5967c6.js"}<br /></span></span>\No newline at end of file</code>
                         </div>
                     </section>
                 </div>
