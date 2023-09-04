@@ -273,7 +273,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>goauthentik/authentik</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 14 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">The authentication glue you need.</div>
@@ -326,7 +326,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>kubernetes/kompose</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 14 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Convert Compose to Kubernetes</div>
@@ -379,7 +379,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>ory/kratos</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 14 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Next-gen identity server (think Auth0, Okta, Firebase) with Ory-hardened authentication, PassKeys, MFA, FIDO2, TOTP, WebAuthn, profile management, identity schemas, social sign in, registration, account recovery, passwordless. Golang, headless, API-only - without templating or theming headaches. Available as a cloud service.</div>
