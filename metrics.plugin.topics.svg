@@ -325,7 +325,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>immich-app/immich</span>
-                                        <span>starred 9 days ago</span>
+                                        <span>starred 10 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">High performance self-hosted photo and video management solution.</div>
@@ -378,7 +378,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>codecrafters-io/build-your-own-x</span>
-                                        <span>starred 9 days ago</span>
+                                        <span>starred 10 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Master programming by recreating your favorite technologies from scratch.</div>
@@ -453,7 +453,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">2cb4849f</span>
-                            <span class="code">packages/eslint-config/.vscode/settings.json</span>
+                            <span class="code">apps/storybook-angular/.vscode/settings.json</span>
                             <span class="code">
                                 <span class="snippet additions">++8</span>
                                 <span class="snippet deletions">--0</span>
