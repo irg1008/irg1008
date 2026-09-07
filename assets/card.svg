@@ -11,10 +11,15 @@
     <mask id="cfademask"><rect width="1000" height="46" fill="url(#cfade)"/></mask>
   </defs>
 
+  <style>
+    .ln { animation: rev .28s ease-out both; }
+    @keyframes rev { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .ln { animation: none; } }
+  </style>
+
   <g clip-path="url(#cardclip)">
     <rect width="1000" height="772" fill="#141013"/>
 
-    <!-- title bar -->
     <rect width="1000" height="46" fill="#241c1e"/>
     <rect width="1000" height="46" fill="url(#cdots)" mask="url(#cfademask)"/>
     <line x1="0" y1="46" x2="1000" y2="46" stroke="#33282a"/>
@@ -25,62 +30,63 @@
 
     <g font-size="14">
 
-      <!-- neofetch -->
-      <text x="32" y="86"><tspan fill="#3fb950">$</tspan><tspan fill="#b7aca7"> neofetch</tspan></text>
+      <g class="ln" style="animation-delay:.15s">
+        <text x="32" y="86"><tspan fill="#3fb950">$</tspan><tspan fill="#b7aca7"> neofetch</tspan></text>
+      </g>
 
-      <g transform="translate(32 104) rotate(-4)">
-        <rect width="132" height="132" rx="16" fill="#faf4ee"/>
-        <rect x="8" y="8" width="116" height="116" rx="10" fill="#f6ddc4"/>
-        <g transform="translate(18 18) scale(1.18)" fill="none">
-          <path d="M25 66 Q20 42 33 35 L47 35 Q60 42 55 66 Z" fill="#e8843c"/>
-          <circle cx="40" cy="31" r="15" fill="#e8843c"/>
-          <path d="M28 21 L25 8 L38 17 Z" fill="#e8843c"/>
-          <path d="M52 21 L55 8 L42 17 Z" fill="#e8843c"/>
-          <path d="M29 18 L28 12 L34 16 Z" fill="#f7c8a0"/>
-          <path d="M51 18 L52 12 L46 16 Z" fill="#f7c8a0"/>
-          <path d="M40 14 v6 M33 16 l3 5 M47 16 l-3 5" stroke="#c96a28" stroke-width="2.4" stroke-linecap="round"/>
-          <path d="M32 30 q3.5 -3.5 7 0 M41 30 q3.5 -3.5 7 0" stroke="#2a1a12" stroke-width="2.6" stroke-linecap="round"/>
-          <path d="M37.5 35 h5 l-2.5 2.6 z" fill="#7a1220"/>
-          <path d="M18 32 h11 M18 36 h11 M62 32 h-11 M62 36 h-11" stroke="#f2c9a8" stroke-width="1.3"/>
-          <path d="M55 56 h11 l-11 9 h11" stroke="#e8843c" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
-          <circle cx="40" cy="47" r="4.6" fill="#f0b982"/>
-          <text x="40" y="50.4" font-size="6.5" text-anchor="middle" fill="#7a1220" font-weight="700">Z</text>
+      <g class="ln" style="animation-delay:.4s">
+        <g transform="translate(32 104) rotate(-4)">
+          <rect width="132" height="132" rx="16" fill="#faf4ee"/>
+          <rect x="8" y="8" width="116" height="116" rx="10" fill="#f6ddc4"/>
+          <g transform="translate(18 18) scale(1.18)" fill="none">
+            <path d="M25 66 Q20 42 33 35 L47 35 Q60 42 55 66 Z" fill="#e8843c"/>
+            <circle cx="40" cy="31" r="15" fill="#e8843c"/>
+            <path d="M28 21 L25 8 L38 17 Z" fill="#e8843c"/>
+            <path d="M52 21 L55 8 L42 17 Z" fill="#e8843c"/>
+            <path d="M29 18 L28 12 L34 16 Z" fill="#f7c8a0"/>
+            <path d="M51 18 L52 12 L46 16 Z" fill="#f7c8a0"/>
+            <path d="M40 14 v6 M33 16 l3 5 M47 16 l-3 5" stroke="#c96a28" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M32 30 q3.5 -3.5 7 0 M41 30 q3.5 -3.5 7 0" stroke="#2a1a12" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M37.5 35 h5 l-2.5 2.6 z" fill="#7a1220"/>
+            <path d="M18 32 h11 M18 36 h11 M62 32 h-11 M62 36 h-11" stroke="#f2c9a8" stroke-width="1.3"/>
+            <path d="M55 56 h11 l-11 9 h11" stroke="#e8843c" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
+            <circle cx="40" cy="47" r="4.6" fill="#f0b982"/>
+            <text x="40" y="50.4" font-size="6.5" text-anchor="middle" fill="#7a1220" font-weight="700">Z</text>
+          </g>
         </g>
       </g>
 
-      <text x="196" y="118" fill="#f0b982">ivan@burgos</text>
-      <text x="196" y="136" fill="#5f544f">———————————</text>
+      <g class="ln" style="animation-delay:.5s"><text x="196" y="118" fill="#f0b982">ivan@burgos</text></g>
+      <g class="ln" style="animation-delay:.56s"><text x="196" y="136" fill="#5f544f">———————————</text></g>
       <g fill="#d8cdc7">
-        <text x="196" y="162"><tspan fill="#f0b982">role</tspan><tspan x="300">full-stack engineer — web platforms, DB to design system</tspan></text>
-        <text x="196" y="186"><tspan fill="#f0b982">company</tspan><tspan x="300">Oxygent Technologies</tspan></text>
-        <text x="196" y="210"><tspan fill="#f0b982">stack</tspan><tspan x="300">TypeScript · React · Astro · Tailwind · shadcn/ui</tspan></text>
-        <text x="196" y="234"><tspan fill="#f0b982">services</tspan><tspan x="300">.NET · Go · PostgreSQL · Prisma</tspan></text>
-        <text x="196" y="258"><tspan fill="#f0b982">infra</tspan><tspan x="300">Docker · Kubernetes · CI/CD · self-hosted homelab</tspan></text>
-        <text x="196" y="282"><tspan fill="#f0b982">ml</tspan><tspan x="300">CNN / NLP — PyTorch, ONNX, FastAPI</tspan></text>
-        <text x="196" y="306"><tspan fill="#f0b982">play</tspan><tspan x="300">Godot + GDShader</tspan></text>
-        <text x="196" y="330"><tspan fill="#f0b982">since</tspan><tspan x="300">2019 · CS, University of Burgos</tspan></text>
+        <g class="ln" style="animation-delay:.66s"><text x="196" y="162"><tspan fill="#f0b982">role</tspan><tspan x="300">full-stack engineer — web platforms, DB to design system</tspan></text></g>
+        <g class="ln" style="animation-delay:.76s"><text x="196" y="186"><tspan fill="#f0b982">company</tspan><tspan x="300">Oxygent Technologies</tspan></text></g>
+        <g class="ln" style="animation-delay:.86s"><text x="196" y="210"><tspan fill="#f0b982">stack</tspan><tspan x="300">TypeScript · React · Astro · Tailwind · shadcn/ui</tspan></text></g>
+        <g class="ln" style="animation-delay:.96s"><text x="196" y="234"><tspan fill="#f0b982">services</tspan><tspan x="300">.NET · Go · PostgreSQL · Prisma</tspan></text></g>
+        <g class="ln" style="animation-delay:1.06s"><text x="196" y="258"><tspan fill="#f0b982">infra</tspan><tspan x="300">Docker · Kubernetes · CI/CD · self-hosted homelab</tspan></text></g>
+        <g class="ln" style="animation-delay:1.16s"><text x="196" y="282"><tspan fill="#f0b982">ml</tspan><tspan x="300">CNN / NLP — PyTorch, ONNX, FastAPI</tspan></text></g>
+        <g class="ln" style="animation-delay:1.26s"><text x="196" y="306"><tspan fill="#f0b982">play</tspan><tspan x="300">Godot + GDShader</tspan></text></g>
+        <g class="ln" style="animation-delay:1.36s"><text x="196" y="330"><tspan fill="#f0b982">since</tspan><tspan x="300">2019 · CS, University of Burgos</tspan></text></g>
       </g>
 
-      <!-- projects -->
-      <text x="32" y="386"><tspan fill="#3fb950">$</tspan><tspan fill="#b7aca7"> ls ~/projects </tspan><tspan fill="#8a7d78">--sort=recent</tspan></text>
+      <g class="ln" style="animation-delay:1.7s"><text x="32" y="386"><tspan fill="#3fb950">$</tspan><tspan fill="#b7aca7"> ls ~/projects </tspan><tspan fill="#8a7d78">--sort=recent</tspan></text></g>
       <g>
-        <text x="32" y="416"><tspan fill="#f0b982">holocron</tspan><tspan x="210" fill="#d8cdc7">self-hostable, lightweight BookLore alternative</tspan><tspan x="968" fill="#8a7d78" text-anchor="end">ts</tspan></text>
-        <text x="32" y="440"><tspan fill="#f0b982">la-sella</tspan><tspan x="210" fill="#d8cdc7">site + booking for El Rincón de La Sella</tspan><tspan x="968" fill="#8a7d78" text-anchor="end">ts·astro</tspan></text>
-        <text x="32" y="464"><tspan fill="#f0b982">pr-bro</tspan><tspan x="210" fill="#d8cdc7">workout tracker for lifters — PRs, routines, 3D panda</tspan><tspan x="968" fill="#8a7d78" text-anchor="end">astro·r3f</tspan></text>
-        <text x="32" y="488"><tspan fill="#f0b982">pop-with-bob</tspan><tspan x="210" fill="#d8cdc7">Godot game — C# + GDShader</tspan><tspan x="968" fill="#8a7d78" text-anchor="end">gd·c#</tspan></text>
-        <text x="32" y="512"><tspan fill="#f0b982">Sign2Text</tspan><tspan x="210" fill="#d8cdc7">ASL → text — CNN, ONNX, FastAPI</tspan><tspan x="968" fill="#8a7d78" text-anchor="end">py</tspan></text>
+        <g class="ln" style="animation-delay:1.9s"><text x="32" y="416"><tspan fill="#f0b982">holocron</tspan><tspan x="210" fill="#d8cdc7">self-hostable, lightweight BookLore alternative</tspan><tspan x="968" fill="#8a7d78" text-anchor="end">ts</tspan></text></g>
+        <g class="ln" style="animation-delay:2.02s"><text x="32" y="440"><tspan fill="#f0b982">la-sella</tspan><tspan x="210" fill="#d8cdc7">site + booking for El Rincón de La Sella</tspan><tspan x="968" fill="#8a7d78" text-anchor="end">ts·astro</tspan></text></g>
+        <g class="ln" style="animation-delay:2.14s"><text x="32" y="464"><tspan fill="#f0b982">pr-bro</tspan><tspan x="210" fill="#d8cdc7">workout tracker for lifters — PRs, routines, 3D panda</tspan><tspan x="968" fill="#8a7d78" text-anchor="end">astro·r3f</tspan></text></g>
+        <g class="ln" style="animation-delay:2.26s"><text x="32" y="488"><tspan fill="#f0b982">pop-with-bob</tspan><tspan x="210" fill="#d8cdc7">Godot game — C# + GDShader</tspan><tspan x="968" fill="#8a7d78" text-anchor="end">gd·c#</tspan></text></g>
+        <g class="ln" style="animation-delay:2.38s"><text x="32" y="512"><tspan fill="#f0b982">Sign2Text</tspan><tspan x="210" fill="#d8cdc7">ASL → text — CNN, ONNX, FastAPI</tspan><tspan x="968" fill="#8a7d78" text-anchor="end">py</tspan></text></g>
       </g>
 
-      <!-- off the clock -->
-      <text x="32" y="568"><tspan fill="#3fb950">$</tspan><tspan fill="#b7aca7"> cat ~/off-the-clock.md</tspan></text>
+      <g class="ln" style="animation-delay:2.7s"><text x="32" y="568"><tspan fill="#3fb950">$</tspan><tspan fill="#b7aca7"> cat ~/off-the-clock.md</tspan></text></g>
       <g>
-        <text x="32" y="598"><tspan fill="#c85668"># music</tspan><tspan x="150" fill="#d8cdc7">piano — mostly classical, occasionally in tune</tspan></text>
-        <text x="32" y="622"><tspan fill="#c85668"># aikido</tspan><tspan x="150" fill="#d8cdc7">on the mat most weeks</tspan></text>
-        <text x="32" y="646"><tspan fill="#c85668"># photo</tspan><tspan x="150" fill="#d8cdc7">the.fotoapp.co/gazquez</tspan></text>
-        <text x="32" y="670"><tspan fill="#c85668"># gamedev</tspan><tspan x="150" fill="#d8cdc7">Godot jams and shader rabbit-holes</tspan></text>
+        <g class="ln" style="animation-delay:2.9s"><text x="32" y="598"><tspan fill="#c85668"># music</tspan><tspan x="150" fill="#d8cdc7">piano — mostly classical, occasionally in tune</tspan></text></g>
+        <g class="ln" style="animation-delay:3.0s"><text x="32" y="622"><tspan fill="#c85668"># aikido</tspan><tspan x="150" fill="#d8cdc7">on the mat most weeks</tspan></text></g>
+        <g class="ln" style="animation-delay:3.1s"><text x="32" y="646"><tspan fill="#c85668"># photo</tspan><tspan x="150" fill="#d8cdc7">the.fotoapp.co/gazquez</tspan></text></g>
+        <g class="ln" style="animation-delay:3.2s"><text x="32" y="670"><tspan fill="#c85668"># gamedev</tspan><tspan x="150" fill="#d8cdc7">Godot jams and shader rabbit-holes</tspan></text></g>
       </g>
 
-      <g fill="none">
+      <g class="ln" style="animation-delay:3.05s" fill="none">
         <g transform="translate(726 582) rotate(-4)"><rect width="54" height="54" rx="12" fill="#ecd7cf"/><g transform="translate(7 7) scale(0.5)">
           <rect x="10" y="32" width="60" height="30" rx="3" fill="#faf4ee"/><rect x="10" y="26" width="60" height="8" rx="2.5" fill="#7a1220"/>
           <path d="M20 34 v28 M30 34 v28 M40 34 v28 M50 34 v28 M60 34 v28" stroke="#cdbdb4" stroke-width="1.6"/>
@@ -102,15 +108,13 @@
         </g></g>
       </g>
 
-      <!-- contact -->
-      <text x="32" y="710"><tspan fill="#3fb950">$</tspan><tspan fill="#b7aca7"> contact</tspan></text>
-      <g>
-        <text x="32" y="738"><tspan fill="#f0b982">github</tspan><tspan x="150" fill="#d8cdc7">github.com/irg1008</tspan><tspan x="360" fill="#f0b982">email</tspan><tspan x="440" fill="#d8cdc7">ivansudevlop@gmail.com</tspan><tspan x="720" fill="#f0b982">foto</tspan><tspan x="790" fill="#d8cdc7">the.fotoapp.co/gazquez</tspan></text>
-      </g>
+      <g class="ln" style="animation-delay:3.6s"><text x="32" y="710"><tspan fill="#3fb950">$</tspan><tspan fill="#b7aca7"> contact</tspan></text></g>
+      <g class="ln" style="animation-delay:3.8s"><text x="32" y="738"><tspan fill="#f0b982">github</tspan><tspan x="150" fill="#d8cdc7">github.com/irg1008</tspan><tspan x="360" fill="#f0b982">email</tspan><tspan x="440" fill="#d8cdc7">ivansudevlop@gmail.com</tspan><tspan x="720" fill="#f0b982">foto</tspan><tspan x="790" fill="#d8cdc7">the.fotoapp.co/gazquez</tspan></text></g>
 
       <text x="32" y="762" fill="#3fb950">$</text>
-      <rect x="50" y="750" width="9" height="14" fill="#f0b982">
-        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+      <rect x="50" y="750" width="9" height="14" fill="#f0b982" opacity="0">
+        <animate attributeName="opacity" to="1" begin="4.05s" dur="0.01s" fill="freeze"/>
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="4.1s" repeatCount="indefinite"/>
       </rect>
 
     </g>

@@ -11,6 +11,16 @@
     <mask id="fademask"><rect width="1200" height="340" fill="url(#fade)"/></mask>
   </defs>
 
+  <style>
+    .fA { animation: fA .34s steps(1, end) infinite; }
+    .fB { animation: fB .34s steps(1, end) infinite; }
+    @keyframes fA { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes fB { 0%, 49% { opacity: 0; } 50%, 100% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .fA, .fB { animation: none; } .fB { opacity: 0; }
+    }
+  </style>
+
   <g clip-path="url(#card)">
     <rect width="1200" height="340" fill="#141013"/>
     <rect width="1200" height="340" fill="url(#dots)" mask="url(#fademask)"/>
@@ -27,14 +37,15 @@
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
     </rect>
 
-    <text x="46" y="174" font-size="52" font-weight="700" fill="#faf4ee" font-family="Space Grotesk, 'Segoe UI', Helvetica, Arial, sans-serif">Iván Ruiz Gázquez</text>
-    <rect x="48" y="192" width="356" height="3" fill="#7a1220"/>
+    <text x="46" y="172" font-size="52" font-weight="700" fill="#faf4ee" font-family="Space Grotesk, 'Segoe UI', Helvetica, Arial, sans-serif">Iván Ruiz Gázquez</text>
+    <rect x="48" y="190" width="356" height="3" fill="#7a1220"/>
 
-    <text x="48" y="230" font-size="17" fill="#c9beb9">full-stack engineer — builds and runs web platforms end to end</text>
-    <text x="48" y="264" font-size="16" fill="#f0b982">TypeScript · React · Astro · .NET · Go · Kubernetes</text>
+    <text x="48" y="228" font-size="17" fill="#c9beb9">full-stack engineer — builds and runs web platforms end to end</text>
+    <text x="48" y="262" font-size="16" fill="#f0b982">TypeScript · React · Astro · .NET · Go · Kubernetes</text>
 
-    <text x="48" y="302" font-size="14.5" fill="#8a7d78"><tspan fill="#f0b982">loc</tspan>  Burgos, ES<tspan fill="#f0b982" dx="22">git</tspan>  github.com/irg1008<tspan fill="#f0b982" dx="22">foto</tspan>  the.fotoapp.co/gazquez</text>
+    <text x="48" y="298" font-size="14.5" fill="#8a7d78"><tspan fill="#f0b982">loc</tspan>  Burgos, ES<tspan fill="#f0b982" dx="22">git</tspan>  github.com/irg1008<tspan fill="#f0b982" dx="22">foto</tspan>  the.fotoapp.co/gazquez</text>
 
+    <!-- cat-Z sticker -->
     <g transform="translate(958 60) rotate(6)">
       <rect width="132" height="132" rx="18" fill="#faf4ee"/>
       <rect x="8" y="8" width="116" height="116" rx="10" fill="#f6ddc4"/>
@@ -51,7 +62,36 @@
         <path d="M18 32 h11 M18 36 h11 M62 32 h-11 M62 36 h-11" stroke="#f2c9a8" stroke-width="1.3"/>
         <path d="M55 56 h11 l-11 9 h11" stroke="#e8843c" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
         <circle cx="40" cy="47" r="4.6" fill="#f0b982"/>
-        <text x="40" y="50.4" font-size="6.5" text-anchor="middle" fill="#7a1220" font-weight="700" font-family="ui-monospace, monospace">Z</text>
+        <text x="40" y="50.4" font-size="6.5" text-anchor="middle" fill="#7a1220" font-weight="700">Z</text>
+      </g>
+    </g>
+
+    <!-- walking Z -->
+    <g class="walker">
+      <animateTransform attributeName="transform" type="translate" from="-70 326" to="1270 326" dur="15s" repeatCount="indefinite"/>
+      <g transform="scale(1.18)">
+      <ellipse cx="0" cy="-2" rx="16" ry="2.5" fill="#000000" opacity="0.25"/>
+      <ellipse cx="0" cy="-9" rx="15" ry="7" fill="#e8843c"/>
+      <circle cx="-11" cy="-9" r="8" fill="#e8843c"/>
+      <circle cx="15" cy="-12" r="7" fill="#e8843c"/>
+      <path d="M11 -17 l1 -5 l4 3 z" fill="#e8843c"/>
+      <path d="M17 -18 l2 -5 l3 4 z" fill="#e8843c"/>
+      <circle cx="17.5" cy="-12" r="1.1" fill="#241c1e"/>
+      <circle cx="21.6" cy="-10" r="1" fill="#7a1220"/>
+      <circle cx="11" cy="-5.5" r="2.1" fill="#f0b982"/>
+      <g class="fA">
+        <path d="M-15 -11 q -9 0 -10 -9" fill="none" stroke="#e8843c" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M-8 -3 l-2 5 M-3 -3 l1 5 M5 -3 l-1 5 M10 -3 l3 5" stroke="#c96a28" stroke-width="2.2" stroke-linecap="round"/>
+      </g>
+      <g class="fB">
+        <path d="M-15 -11 q -10 -4 -7 -13" fill="none" stroke="#e8843c" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M-8 -3 l2 5 M-3 -3 l-1 5 M5 -3 l2 5 M10 -3 l-2 5" stroke="#c96a28" stroke-width="2.2" stroke-linecap="round"/>
+      </g>
+      <text x="22" font-size="6" fill="#f0b982" font-weight="700">
+        <animate attributeName="y" values="-19;-31" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.9;0" dur="2.4s" repeatCount="indefinite"/>
+        z
+      </text>
       </g>
     </g>
   </g>
