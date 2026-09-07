@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <rect width="180" height="180" rx="28" fill="#ffffff"/>
+  <rect x="12" y="12" width="156" height="156" rx="16" fill="#f6ddc4"/>
+  <g transform="translate(30 30) scale(1.5)" fill="none">
+    <path d="M25 66 Q20 42 33 35 L47 35 Q60 42 55 66 Z" fill="#e8843c"/>
+    <circle cx="40" cy="31" r="15" fill="#e8843c"/>
+    <path d="M28 21 L25 8 L38 17 Z" fill="#e8843c"/>
+    <path d="M52 21 L55 8 L42 17 Z" fill="#e8843c"/>
+    <path d="M29 18 L28 12 L34 16 Z" fill="#f7c8a0"/>
+    <path d="M51 18 L52 12 L46 16 Z" fill="#f7c8a0"/>
+    <path d="M40 14 v6 M33 16 l3 5 M47 16 l-3 5" stroke="#c96a28" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M32 30 q3.5 -3.5 7 0 M41 30 q3.5 -3.5 7 0" stroke="#2a1a12" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M37.5 35 h5 l-2.5 2.6 z" fill="#7a1220"/>
+    <path d="M18 32 h11 M18 36 h11 M62 32 h-11 M62 36 h-11" stroke="#f2c9a8" stroke-width="1.3"/>
+    <path d="M55 56 h11 l-11 9 h11" stroke="#e8843c" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="40" cy="47" r="4.6" fill="#f0b982"/>
+    <text x="40" y="50.4" font-size="6.5" text-anchor="middle" fill="#7a1220" font-weight="700" font-family="ui-monospace, monospace">Z</text>
+  </g>
+</svg>
